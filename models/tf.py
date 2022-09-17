@@ -411,6 +411,8 @@ def parse_model(d, ch, model, imgsz):  # model_dict, input_channels(3)
                 args[1] = [list(range(args[1] * 2))] * len(f)
             if has_Focus_layer(model):
                 imgsz_reform = [val * 2 for val in imgsz]
+            else:
+                imgsz_reform = imgsz
             args.append(imgsz_reform)
         else:
             c2 = ch[f]
