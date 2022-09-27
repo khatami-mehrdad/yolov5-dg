@@ -1,6 +1,0 @@
-names:
-- Motorcycle
-nc: 1
-
-train: /media/mehrdad/DeGirum/wa/dataset_51/exported_dataset/Motorcycle/images/train
-val: /media/mehrdad/DeGirum/wa/dataset_51/exported_dataset/Motorcycle/images/validation
